@@ -4,10 +4,17 @@
 #Autor: Leonardo Teixeira                  #
 #Server: Servidor firebird Super Server    #
 #Version: firebird 2.1.7 x64               #
+#Ubuntu 18-server ou debian 9              #
+#kernel 4.15.0-156-generic                 #
 ############################################
 
+echo "atualizando o sistema"
+sudo apt update && upgrade -y
+
 echo "install dependendcias"
-apt install libstdc++5 libncurses5 wget -y
+sudo apt install libstdc++5 libncurses5 wget -y
+
+sleep 5
 
 echo "movendo para opt firebird 2.1.7"
 mv FirebirdSS-2.1.7.18553-0.amd64.tar.gz /opt/
