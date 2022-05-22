@@ -35,4 +35,11 @@ sudo ufw enable         # habilitando
 sudo ufw allow 22/tcp   # conexao ssh
 sudo ufw allow 3050/tcp # porta padrao firebird conexao em rede
 
+echo "start service"
+service firebird start
+service firebird status
+
 echo "fim"
+echo "para encerar o serviço"
+echo "service firebid stop"
+
