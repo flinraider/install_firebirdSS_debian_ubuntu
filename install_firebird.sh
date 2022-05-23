@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
 ############################################
-#Autor: Leonardo Teixeira                  #
-#Server: Servidor firebird Super Server    #
-#Version: firebird 2.1.7 x64               #
-#Ubuntu 18-server ou debian 9              #
-#kernel 4.15.0-156-generic                 #
+# Autor: Leonardo Teixeira                 #
+# Server: Servidor firebird Super Server   #
+# Version: firebird 2.1.7 x64              #
+# Ubuntu 18-server ou debian 9             #
+# kernel 4.15.0-156-generic                #
 ############################################
 
 echo "atualizando o sistema"
